@@ -1,0 +1,17 @@
+[package]
+name = "hathor"
+version = "0.1.0"
+authors = ["Alexander Korolev <alexander.korolev.germany@gmail.com>"]
+edition = "2018"
+categories = ["command-line-utilities"]
+description = """
+Allows to quckly generate a set of similar files.
+"""
+homepage = "https://github.com/hathor-rs/hathor"
+keywords = []
+license = "Unlicense OR MIT"
+readme = "README.md"
+repository = "https://github.com/hathor-rs/hathor"
+
+[dependencies]
+structopt = "0.3"
